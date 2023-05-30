@@ -21,7 +21,7 @@ public class PipesGenerator : MonoBehaviour
    {
         while(true)
         {
-            yield return new WaitForSeconds(6f);
+            yield return new WaitForSeconds(4f);
             float randy = Random.Range(-1f, 3.5f);
             pos = new Vector3(4f, randy, 0f);
             Instantiate(pipe, pos, Quaternion.identity);
