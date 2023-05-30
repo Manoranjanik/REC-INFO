@@ -8,6 +8,7 @@ public class Background : MonoBehaviour
     private Renderer rend;
     public float speed;
     //public float speed = 30;
+    //public float speed = 20;
     
     void Start()
     {
