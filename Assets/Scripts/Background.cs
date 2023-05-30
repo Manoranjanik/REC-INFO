@@ -7,7 +7,7 @@ public class Background : MonoBehaviour
     public GameObject quad;
     private Renderer rend;
     public float speed;
-    //public float speed = 10;
+    //public float speed = 30;
     
     void Start()
     {
