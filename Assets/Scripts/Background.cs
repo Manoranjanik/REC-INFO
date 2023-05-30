@@ -5,6 +5,7 @@ using UnityEngine;
 public class Background : MonoBehaviour
 {
     public GameObject quad;
+    //public GameObject quad;
     private Renderer rend;
     public float speed;
     //public float speed = 30;
