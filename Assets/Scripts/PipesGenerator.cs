@@ -5,6 +5,7 @@ public class PipesGenerator : MonoBehaviour
 {
     public GameObject pipe;
     public Vector3 pos;
+    //public Vector3 pos;
   
     void Start()
     {
