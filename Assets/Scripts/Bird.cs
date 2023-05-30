@@ -36,7 +36,7 @@ public class Bird : MonoBehaviour
 
     public void UpdateScore()
     {
-        score++;
+        score = score+1;
         scoreText.text = score.ToString();
     }
 }
